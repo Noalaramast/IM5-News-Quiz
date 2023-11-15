@@ -1,0 +1,52 @@
+[
+    {
+        "question": "Der ökologische Fussabdruck von durchschnittlichen EU-Bürger*innen ist doppelt so gross wie der eines durchschnittlichen Menschen in Indien.",
+        "answer": true,
+        "detailedAnswer": "Diese Aussage ist korrekt."
+    },
+    {
+        "question": "LED-Lampen verbrauchen etwa 75% weniger Energie als herkömmliche Glühbirnen und halten bis zu 25-mal länger.",
+        "answer": true,
+        "detailedAnswer": "Diese Aussage ist korrekt."
+    },
+    {
+        "question": "Mittlerweile werden rund 50% des weltweit produzierten Plastiks erfolgreich recycelt.",
+        "answer": false,
+        "detailedAnswer": "Falsch. Derzeit liegt die Recyclingquote von Plastikverpackungen weltweit bei nur 14 Prozent, 40 Prozent landen auf Mülldeponien und 14 Prozent in Verbrennungsanlagen. Die restlichen 32 Prozent verbleiben einfach in der Umwelt."
+    },
+    {
+        "question": "Elektroautos emittieren während ihrer gesamten Lebensdauer mehr CO2 als herkömmliche Benzin- oder Dieselfahrzeuge.",
+        "answer": false,
+        "detailedAnswer": "Falsch. Obwohl die Produktion von Elektroautos CO2-intensiv sein kann, sind sie über ihre gesamte Lebensdauer gesehen oft umweltfreundlicher als herkömmliche Fahrzeuge."
+    },
+    {
+        "question": "Der Anbau von Bio-Lebensmitteln benötigt generell mehr Landfläche als der konventionelle Anbau.",
+        "answer": true,
+        "detailedAnswer": "Diese Antwort ist korrekt."
+    },
+    {
+        "question": "Das Pflanzen von Bäumen ist eine der effektivsten Methoden, um den Klimawandel zu bekämpfen.",
+        "answer": true,
+        "detailedAnswer": "Diese Aussage ist korrekt. Bäume absorbieren CO2 und tragen so zur Verringerung der Treibhausgase in der Atmosphäre bei."
+    },
+    {
+        "question": "Mehr als 50% der weltweiten Treibhausgasemissionen werden durch die Industrie und den Energiebereich verursacht.",
+        "answer": true,
+        "detailedAnswer": "Diese Aussage ist korrekt."
+    },
+    {
+        "question": "Der grösste Anteil des Wasserverbrauchs in Privathaushalten wird durch das Duschen verursacht.",
+        "answer": false,
+        "detailedAnswer": "Falsch. In vielen Haushalten ist die Toilette der grösste Einzelverbraucher von Wasser, gefolgt von Waschmaschinen und Duschen."
+    },
+    {
+        "question": "Der Kauf lokaler Produkte reduziert immer den CO2-Fussabdruck im Vergleich zu importierten Produkten.",
+        "answer": false,
+        "detailedAnswer": "Falsch. Obwohl lokale Produkte oft einen geringeren Transportaufwand bedeuten, hängt der CO2-Fussabdruck von vielen Faktoren ab, einschliesslich der Produktionsmethoden."
+    },
+    {
+        "question": "In der Schweiz wird der Grossteil der Energie für den öffentlichen Verkehr aus erneuerbaren Quellen gewonnen.",
+        "answer": true,
+        "detailedAnswer": "Diese Aussage ist korrekt. Die Schweiz setzt stark auf erneuerbare Energiequellen, insbesondere Wasserkraft. Dies macht den ÖV in der Schweiz zu einem der umweltfreundlichsten Systeme weltweit."
+    }
+]

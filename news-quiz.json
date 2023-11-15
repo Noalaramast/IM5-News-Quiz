@@ -1,0 +1,52 @@
+[
+    {
+        "question": "Angela Merkel hat im Jahr 2021 erneut als Bundeskanzlerin kandidiert, wurde allerdings nicht mehr gewählt.",
+        "answer": false,
+        "detailedAnswer": "Falsch. Angela Merkel hat nicht mehr kandidiert."
+    },
+    {
+        "question": "Die Weltgesundheitsorganisation (WHO) hat im Jahr 2021 die COVID-19-Pandemie für beendet erklärt.",
+        "answer": false,
+        "detailedAnswer": "Falsch. Die WHO hat die Pandemie erst 2023 als beendet erklärt."
+    },
+    {
+        "question": "Queen Elisabeth II. hat 70 Jahre lang regiert und war damit das am längsten amtierende Staatsoberhaupt der Welt.",
+        "answer": true,
+        "detailedAnswer": "Diese Aussage ist korrekt."
+    },
+    {
+        "question": "Der Supreme Court in den USA wollte 2022 das Recht auf Abtreibung kippen. Das neue Gesetz wurde allerdings nicht angenommen.",
+        "answer": false,
+        "detailedAnswer": "Falsch. Das Gesetz wurde durch den konservativen Supreme Court angenommen."
+    },
+    {
+        "question": "Das letzte grosse Erdbeben in der Türkei ereignete sich im Sommer 2022.",
+        "answer": false,
+        "detailedAnswer": "Falsch. Im Februar 2023 gab es im Südosten der Türkei und im Norden Syriens zwei Beben mit der Stärke 7,8 und 7,5."
+    },
+    {
+        "question": "In den letzten Monaten hatten nebst den tausenden Schauspieler*innen und Darsteller*Innen auch viele Drehbuchautor*innen in Hollywood gestreikt.",
+        "answer": true,
+        "detailedAnswer": "Diese Aussage ist korrekt."
+    },
+    {
+        "question": "Im Finalspiel an der Fussball-Weltmeisterschaft in Katar hat Frankreich die Partie gegen Kroatien für sich entscheiden können.",
+        "answer": false,
+        "detailedAnswer": "Falsch. Argentinien hat das Finalspiel gegen Frankreich gewonnen."
+    },
+    {
+        "question": "Bei den eidgenössischen Wahlen im Oktober 2023 hat die Schweiz ein neues Parlament gewählt.",
+        "answer": true,
+        "detailedAnswer": "Diese Aussage ist korrekt."
+    },
+    {
+        "question": "Die Weltmeteorologieorganisation (WMO) rechnet damit, dass das Phänomen El Niño erst wieder im Jahr 2026 auftreten wird.",
+        "answer": false,
+        "detailedAnswer": "Falsch. El Niño wird im Sommer 2023/2024 mit sehr grosser Wahrscheinlichkeit für Temperaturrekorde und extreme Hitze in vielen Weltregionen sorgen. Es wird befürchtet, dass die australische Waldbrandsaison so zerstörerisch ausfällt wie im Sommer 2019/2020."
+    },
+    {
+        "question": "Neuesten Forschungen zufolge ist das Ozonloch 2022 kleiner geworden. Das bedeutet aber noch keine Entwarnung.",
+        "answer": true,
+        "detailedAnswer": "Diese Aussage ist korrekt."
+    }
+]

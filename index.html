@@ -1,11 +1,54 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="de">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>News-Quiz</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Verbindet CSS- mit HTML-Datei -->
 </head>
 <body>
-    
+    <div class="container"> <!-- Die Klasse container ist mein Haputcontainer, der alle Elemente des Quizes enthält. -->
+        <h1 id="quiz-title">Teste dein Wissen</h1>
+        <h2 id="questionTitle" class="hidden">1. Frage</h2>
+        <div id="intro"> <!-- Inhalt und Knopf des Einführungsbereichs -->
+            <p>Wir werden laufend mit News berieselt, wenn nicht sogar überflutet. Doch dieser extreme News-Konsum führt nicht zu einem höheren Wissensstand in der Gesellschaft. Vieles geht sofort wieder vergessen.<br><br>Mal schauen, was dir in den letzten Jahren und Monaten alles geblieben ist.<br><br>Es folgen zehn Fragen, die jeweils mit Wahr oder Falsch beantwortet werden können.</p>
+            <button  id="start-quiz-button">Quiz starten</button>
+        </div>
+        <div id="theme-selection" class="hidden">
+            <h2>Wähle ein Thema</h2>
+            <button onclick="loadQuizData('news-quiz.json')">Allgemeines</button>
+            <button onclick="loadQuizData('nachhaltigkeit-quiz.json')">Nachhaltigkeit</button>
+            <button onclick="loadQuizData('schweizer-politik-quiz.json')">Schweizer Politik</button>
+        </div>
+        
+        <div id="quiz" class="hidden"> <!-- Inhalt für das eigentliche Quiz wird hier ausgeblendet -->
+            <p id="question"></p>
+            <div class="answer-buttons">
+                <button onclick="selectAnswer(true)">Wahr</button>
+                <button onclick="selectAnswer(false)">Falsch</button>
+            </div>
+            <div class="timer-container"> <!-- Container für den Timer und die Fortschrittsanzeige -->
+                <div id="timer-bar"></div>
+                <p id="countdown">10</p>
+            </div>
+            <div id="progress"></div>
+        </div>
+        
+        <div id="result" class="hidden"> <!-- Bereiche für die Ergebnisanzeige und die detaillierten Antworten, standardmäßig ausgeblendet. -->
+            <p>Du hast</p>
+            <h2 id="score">xy / 10 Punkte</h2>
+            <p>erreicht!</p>
+            <div>
+                <button onclick="resetQuiz()">Zurück zum Start</button>
+                <button onclick="showAnswers()">Antworten ansehen</button>
+            </div>
+        </div>
+        <div id="answers" class="hidden">
+            <h1>Antworten News-Quiz</h1>
+            <div id="answerList"></div>
+            <button onclick="resetQuiz()">Quiz abschliessen</button>
+        </div>
+    </div>
+    <script src="script.js"></script> <!-- Hier wird die JS-Datei eingebunden. -->
 </body>
 </html>

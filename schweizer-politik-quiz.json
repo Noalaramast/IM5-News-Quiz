@@ -1,0 +1,52 @@
+[
+    {
+        "question": "Die Schweiz hat mehr als einen offiziellen Bundespräsidenten.",
+        "answer": false,
+        "detailedAnswer": "Falsch. Die Schweiz hat nur einen Bundespräsidenten, der jährlich von der Bundesversammlung gewählt wird und als primus inter pares (Erster unter Gleichen) im siebenköpfigen Bundesrat dient."
+    },
+    {
+        "question": "Bei den eidgenössischen Wahlen im Oktober 2023 hat die Schweiz ein neues Parlament gewählt.",
+        "answer": true,
+        "detailedAnswer": "Diese Aussage ist korrekt."
+    },
+    {
+        "question": "Die Schweiz hat eine der höchsten Dichten an diplomatischen Vertretungen weltweit.",
+        "answer": true,
+        "detailedAnswer": "Diese Aussage ist korrekt. Aufgrund ihrer neutralen Aussenpolitik und der Rolle als Gastland für viele internationale Organisationen hat die Schweiz ein dichtes Netz an diplomatischen Vertretungen."
+    },
+    {
+        "question": "Die Schweizerische Volkspartei (SVP) hatte bei den vergangenen Parlamentswahlen im Oktober 2022 das mit Abstand grösste Wahlbudget.",
+        "answer": false,
+        "detailedAnswer": "Falsch. Über das grösste Budget für die diesjährigen Wahlen verfügt die rechtsbürgerliche Freisinnig-Demokratische Partei (FDP.Die Liberalen) mit 12,4 Millionen Franken."
+    },
+    {
+        "question": "Innenminister Alain Berset tritt nach zwölf Jahren in der Regierung auf Ende 2023 zurück.",
+        "answer": true,
+        "detailedAnswer": "Diese Aussage ist korrekt."
+    },
+    {
+        "question": "Im Parlament wird die Bevölkerung durch den Nationalrat vertreten und die Kantone werden durch den Ständerat vertreten.",
+        "answer": true,
+        "detailedAnswer": "Diese Aussage ist korrekt."
+    },
+    {
+        "question": "Die Schweiz hat eine der niedrigsten Unternehmenssteuerraten in Europa.",
+        "answer": true,
+        "detailedAnswer": "Diese Aussage ist korrekt."
+    },
+    {
+        "question": "Das im Oktober 2023 gewählte Parlament ist diverser als bisher. Damit haben wir einen Nationalrat, der die Bevölkerung repräsentiert.",
+        "answer": false,
+        "detailedAnswer": "Falsch. Der Frauenanteil ging bei den Wahlen sogar zurück und liegt aktuell bei 38,5%. 1,5% der Nationalrät*innen – drei Personen – sind Menschen mit Behinderungen, obwohl über 10% der Bevölkerung in irgendeiner Form beeinträchtigt sind. Zwei Beispiele für markante Unterschiede zwischen der Schweizer Bevölkerung und den Gewählten."
+    },
+    {
+        "question": "Besonders die rechte SVP und einige Gewerkschaften lehnen Annäherungsversuche von der Schweiz an die EU ab.",
+        "answer": true,
+        "detailedAnswer": "Diese Aussage ist korrekt."
+    },
+    {
+        "question": "Die Aktie der Credit Suisse fiel am 15. März 2023 auf ein neues Allzeittief. Nur wenige Tage später wurde die Bank von der Raiffeisen Gruppe übernommen.",
+        "answer": false,
+        "detailedAnswer": "Die CSS wurde von der UBS übernommen."
+    }
+]

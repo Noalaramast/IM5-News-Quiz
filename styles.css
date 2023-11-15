@@ -1,0 +1,122 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif; /* Wiederherstellung der Schriftart */
+    text-align: center; /* Zentrierung des Textes */
+    background-image: url('https://643760-4.web.fhgr.ch/image/background.jpg');
+    background-size: cover; /* Das Bild wird so skaliert, dass es den Container ausfüllt */
+    background-repeat: no-repeat; /* Das Bild wird nicht wiederholt */
+    background-position: center center; /* Das Bild wird zentriert */
+    background-attachment: fixed; /* Das Bild wird fest positioniert, sodass es beim Scrollen nicht verschoben wird */
+    display: flex; /* Flexbox aktivieren */
+    justify-content: center; /* Horizontale Zentrierung */
+    align-items: center; /* Vertikale Zentrierung */
+    /* height: 100vh;  Höhe auf 100% der Bildschirmhöhe setzen */
+    height: auto;
+    min-height: 100vh;
+} /* Im Body sind die grundlegenden Formatierungen für den gesamten Inhalt, einschließlich Schriftart, Textausrichtung, Hintergrundbild und Flexbox-Einstellungen. */
+
+.container {
+    width: 80%;
+    min-height: 400px;  /* Durch die Änderung von height zu min-height wird sichergestellt, dass der Container mindestens 400px hoch ist, aber bei Bedarf wachsen kann. */ 
+    max-width: 1000px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: rgba(191, 251, 254, 0.9); 
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+h1 {
+    color: #ba417e;
+    font-weight: bold;
+}
+
+#questionTitle {
+    font-size: 20px;
+    color: #001430;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+
+button {
+    padding: 10px 20px;
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #001430;
+    color: white;
+}
+
+.hidden {
+    display: none;
+}
+
+#progress {
+    font-size: 20px;
+}
+
+#progress span {
+    font-size: 18px; /* Schriftgröße anpassen */
+    color: #777; /* Grauton für die Schrift */
+    margin: 0 5px;
+}
+
+#progress span.active {
+    font-weight: bold;
+}
+
+button.selected {
+    transform: scale(1.05) !important; /* Vergrößert den Button um 5% */
+    font-size: inherit !important; /* Setzt die Schriftgröße auf den Standardwert zurück */
+    background-color: #001430 !important;
+}
+
+
+#timer-bar {
+    width: 100%;
+    height: 10px;
+    background-color: #ba417e;
+    box-sizing: border-box; /* Stellt sicher, dass die Breite des Balkens die Ränder und die Polsterung einschließt */
+    /* float: right;  Stellt sicher, dass der Balken von rechts nach links abnimmt. */
+}
+
+#countdown {
+    font-size: 24px;
+    font-weight: bold;
+    color: #ba417e;
+    margin-top: 1em; /* Abstand nach dem Timer-Balken */
+}
+
+.answer-buttons {
+    margin-bottom: 2em !important;
+}
+
+.timer-container {
+    width: 100%; /* Stellen Sie sicher, dass der Container immer die volle Breite einnimmt */
+    max-width: 100%; /* Dies stellt sicher, dass der Container nicht über seine maximale Breite hinausgeht */
+    display: flex; /* Verwenden Sie Flexbox, um die Elemente innerhalb des Containers anzuordnen */
+    direction: rtl; /* Stellt sicher, dass der Balken von rechts nach links abnimmt. */
+    flex-direction: column; /* Stapeln Sie die Elemente vertikal */
+    align-items: center; /* Zentrieren Sie die Elemente horizontal */
+}
+
+.question-title {
+    font-weight: bold;
+    margin-bottom: 0.5em;
+}
+
+.detailed-answer {
+    margin-top: 0.5em;
+    color: #ba417e;
+}
+
+#intro, .detailed-answer {
+    line-height: 1.5; /* Dies erhöht den Zeilenabstand auf das 1,5-fache der Schriftgröße */
+}
