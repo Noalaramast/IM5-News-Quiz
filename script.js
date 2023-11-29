@@ -146,7 +146,8 @@ function finishQuiz() {
 // Setzt das Quiz zurück und zeigt den Startbildschirm an
 function resetQuiz() {
     setQuizTitle();
-    document.getElementById("quiz-title").classList.remove("hidden"); // Zeigt die h1 "News-Quiz" wieder an
+    document.getElementById("quiz-title").innerText = "Teste dein Wissen"; // Setzt den Titel zurück
+    document.getElementById("quiz-title").classList.remove("hidden"); // Zeigt die h1 wieder an
     document.getElementById("result").classList.add("hidden");
     document.getElementById("answers").classList.add("hidden");
     document.getElementById("intro").classList.remove("hidden");
