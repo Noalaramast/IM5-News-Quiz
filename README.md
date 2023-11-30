@@ -9,3 +9,4 @@ Leider ist der Timer-Balken bis heute nicht einheitlich in der Breite. Er ist im
 Wolfgang erklärte mir im Coaching, weshalb es wenig Sinn macht, meine Quiz-Fragen und Antworten im JS-File zu platzieren. Seine Erklärung war für mich nachvollziehbar und ich begriff, glaube ich, zum ersten Mal richtig, wofür JSON-Files sind. ;) Allerdings konnte ich mir nicht vorstellen, dass ich den Auftrag korrekt bei ChatGPT eingeben werde, so dass ich danach mehrere Quiz-Rubriken habe und es fortlaufend ergänzt werden könnte. Es hat überraschenderweise auf Anhieb funktioniert. Ich hatte Freude!
 ### Quellen
 -	ChatGPT online verfügbar: https://chat.openai.com/share/aff9eeef-f1ab-42c1-bce2-088049c26ca7
+- Videos von Lea aus dem 4. Semester für den Grundaufbau
